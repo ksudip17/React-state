@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>React states App</h1>
-      <LikeButton/>
+      <Counter/>
     </>
   )
 }
