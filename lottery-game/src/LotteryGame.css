@@ -1,0 +1,16 @@
+.ticket {
+    border: 1px solid pink;
+    border-radius: 14px;
+}
+
+.lotteryGameUi {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.congrats {
+    color: yellow;
+}

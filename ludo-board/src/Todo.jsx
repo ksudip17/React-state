@@ -21,7 +21,7 @@ export default function Todo() {
         <div>
             <input placeholder="add a task" 
             value={newTodo}
-             onChange={updateTodo}/>
+            onChange={updateTodo}/>
             <br /><br />
             <button onClick={addNewTask}>Add task</button>
             <br />
