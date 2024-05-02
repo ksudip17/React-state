@@ -1,4 +1,8 @@
+
 import { useState } from "react";
+
+
+
 
 export default function CommentsForm({addNewComment}) {
     let[formData , setFormData] = useState({
@@ -6,6 +10,8 @@ export default function CommentsForm({addNewComment}) {
         remarks : "",
         rating : "",
     });
+
+    
 
 
     let handleInputChange = (event) => {
@@ -19,6 +25,7 @@ export default function CommentsForm({addNewComment}) {
         console.log(formData);
         addNewComment(formData);
         event.preventDefault();
+
         setFormData ({
             username : "",
             remarks : "",
