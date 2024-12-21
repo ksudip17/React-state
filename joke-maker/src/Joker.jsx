@@ -21,11 +21,6 @@ export default function Joker () {
     getFirstJoke();
     }, []);
     
-  
-
-    
-
-   
     return (
         <div>
             <h3>Joker!</h3>

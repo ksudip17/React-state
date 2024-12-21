@@ -1,7 +1,7 @@
 
 import './App.css'
-import LudoBoard from './LudoBoard'
 import Todo from './Todo'
+import LudoBoard from './LudoBoard'
 
 function App() {
   
@@ -9,6 +9,8 @@ function App() {
   return (
     <>
       <Todo/>
+      <hr />
+      <LudoBoard/>
     </>
   )
 }
